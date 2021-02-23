@@ -1,0 +1,116 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1>HDR co-supervision network</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "Green,Edward", "label": "Green,Edward", "shape": "dot", "size": 50, "title": "Green,Edward"}, {"font": {"color": "white"}, "id": "Bean,Nigel", "label": "Bean,Nigel", "shape": "dot", "size": 50, "title": "Bean,Nigel"}, {"font": {"color": "white"}, "id": "Tuke,Simon", "label": "Tuke,Simon", "shape": "dot", "size": 50, "title": "Tuke,Simon"}, {"font": {"color": "white"}, "id": "Humphries,Melissa", "label": "Humphries,Melissa", "shape": "dot", "size": 50, "title": "Humphries,Melissa"}, {"font": {"color": "white"}, "id": "Mitchell,Lewis", "label": "Mitchell,Lewis", "shape": "dot", "size": 50, "title": "Mitchell,Lewis"}, {"font": {"color": "white"}, "id": "Chen,Michael", "label": "Chen,Michael", "shape": "dot", "size": 50, "title": "Chen,Michael"}, {"font": {"color": "white"}, "id": "Baraglia,David", "label": "Baraglia,David", "shape": "dot", "size": 50, "title": "Baraglia,David"}, {"font": {"color": "white"}, "id": "Murray,Michael", "label": "Murray,Michael", "shape": "dot", "size": 50, "title": "Murray,Michael"}, {"font": {"color": "white"}, "id": "Larusson,Finnur", "label": "Larusson,Finnur", "shape": "dot", "size": 50, "title": "Larusson,Finnur"}, {"font": {"color": "white"}, "id": "Peralta Gutierrez,Oscar", "label": "Peralta Gutierrez,Oscar", "shape": "dot", "size": 50, "title": "Peralta Gutierrez,Oscar"}, {"font": {"color": "white"}, "id": "Stokes,Yvonne", "label": "Stokes,Yvonne", "shape": "dot", "size": 50, "title": "Stokes,Yvonne"}, {"font": {"color": "white"}, "id": "Buchdahl,Nicholas", "label": "Buchdahl,Nicholas", "shape": "dot", "size": 50, "title": "Buchdahl,Nicholas"}, {"font": {"color": "white"}, "id": "Yarom,Yuval", "label": "Yarom,Yuval", "shape": "dot", "size": 50, "title": "Yarom,Yuval"}, {"font": {"color": "white"}, "id": "Black,Andrew", "label": "Black,Andrew", "shape": "dot", "size": 50, "title": "Black,Andrew"}, {"font": {"color": "white"}, "id": "Huber,Christian", "label": "Huber,Christian", "shape": "dot", "size": 50, "title": "Huber,Christian"}, {"font": {"color": "white"}, "id": "Cox,Barry", "label": "Cox,Barry", "shape": "dot", "size": 50, "title": "Cox,Barry"}, {"font": {"color": "white"}, "id": "Metcalfe,Andrew", "label": "Metcalfe,Andrew", "shape": "dot", "size": 50, "title": "Metcalfe,Andrew"}, {"font": {"color": "white"}, "id": "Balasuriya,Sanjeeva", "label": "Balasuriya,Sanjeeva", "shape": "dot", "size": 50, "title": "Balasuriya,Sanjeeva"}, {"font": {"color": "white"}, "id": "Ding,Boyin", "label": "Ding,Boyin", "shape": "dot", "size": 50, "title": "Ding,Boyin"}, {"font": {"color": "white"}, "id": "Ebendorff-Heidepriem,Heike", "label": "Ebendorff-Heidepriem,Heike", "shape": "dot", "size": 50, "title": "Ebendorff-Heidepriem,Heike"}, {"font": {"color": "white"}, "id": "Roughan,Matthew", "label": "Roughan,Matthew", "shape": "dot", "size": 50, "title": "Roughan,Matthew"}, {"font": {"color": "white"}, "id": "Boyle,Laura", "label": "Boyle,Laura", "shape": "dot", "size": 50, "title": "Boyle,Laura"}, {"font": {"color": "white"}, "id": "Glonek,Garique", "label": "Glonek,Garique", "shape": "dot", "size": 50, "title": "Glonek,Garique"}, {"font": {"color": "white"}, "id": "Bennetts,Luke", "label": "Bennetts,Luke", "shape": "dot", "size": 50, "title": "Bennetts,Luke"}, {"font": {"color": "white"}, "id": "Lee,Sharon Xinling", "label": "Lee,Sharon Xinling", "shape": "dot", "size": 50, "title": "Lee,Sharon Xinling"}, {"font": {"color": "white"}, "id": "Nguyen,Hung", "label": "Nguyen,Hung", "shape": "dot", "size": 50, "title": "Nguyen,Hung"}, {"font": {"color": "white"}, "id": "Maclean,John", "label": "Maclean,John", "shape": "dot", "size": 50, "title": "Maclean,John"}, {"font": {"color": "white"}, "id": "Eastwood,Michael", "label": "Eastwood,Michael", "shape": "dot", "size": 50, "title": "Eastwood,Michael"}, {"font": {"color": "white"}, "id": "Varghese,Mathai", "label": "Varghese,Mathai", "shape": "dot", "size": 50, "title": "Varghese,Mathai"}, {"font": {"color": "white"}, "id": "Bunder,Judith", "label": "Bunder,Judith", "shape": "dot", "size": 50, "title": "Bunder,Judith"}, {"font": {"color": "white"}, "id": "Nguyen,Giang", "label": "Nguyen,Giang", "shape": "dot", "size": 50, "title": "Nguyen,Giang"}, {"font": {"color": "white"}, "id": "Rohrlach,Adam", "label": "Rohrlach,Adam", "shape": "dot", "size": 50, "title": "Rohrlach,Adam"}, {"font": {"color": "white"}, "id": "Skene,David Matthew", "label": "Skene,David Matthew", "shape": "dot", "size": 50, "title": "Skene,David Matthew"}, {"font": {"color": "white"}, "id": "Leistner,Thomas", "label": "Leistner,Thomas", "shape": "dot", "size": 50, "title": "Leistner,Thomas"}, {"font": {"color": "white"}, "id": "Stevenson,Daniel", "label": "Stevenson,Daniel", "shape": "dot", "size": 50, "title": "Stevenson,Daniel"}, {"font": {"color": "white"}, "id": "Buhl,Jerome", "label": "Buhl,Jerome", "shape": "dot", "size": 50, "title": "Buhl,Jerome"}, {"font": {"color": "white"}, "id": "Roberts,Anthony John", "label": "Roberts,Anthony John", "shape": "dot", "size": 50, "title": "Roberts,Anthony John"}, {"font": {"color": "white"}, "id": "Vozzo,Raymond", "label": "Vozzo,Raymond", "shape": "dot", "size": 50, "title": "Vozzo,Raymond"}, {"font": {"color": "white"}, "id": "Ross,Joshua Vincent", "label": "Ross,Joshua Vincent", "shape": "dot", "size": 50, "title": "Ross,Joshua Vincent"}, {"font": {"color": "white"}, "id": "Binder,Benjamin", "label": "Binder,Benjamin", "shape": "dot", "size": 50, "title": "Binder,Benjamin"}, {"font": {"color": "white"}, "id": "Mattner,Trent", "label": "Mattner,Trent", "shape": "dot", "size": 50, "title": "Mattner,Trent"}]);
+        edges = new vis.DataSet([{"from": "Nguyen,Giang", "to": "Peralta Gutierrez,Oscar", "value": 500}, {"from": "Cox,Barry", "to": "Chen,Michael", "value": 200}, {"from": "Bennetts,Luke", "to": "Skene,David Matthew", "value": 100}, {"from": "Bennetts,Luke", "to": "Ding,Boyin", "value": 100}, {"from": "Bean,Nigel", "to": "Mitchell,Lewis", "value": 100}, {"from": "Balasuriya,Sanjeeva", "to": "Mattner,Trent", "value": 100}, {"from": "Nguyen,Giang", "to": "Black,Andrew", "value": 100}, {"from": "Ross,Joshua Vincent", "to": "Glonek,Garique", "value": 100}, {"from": "Humphries,Melissa", "to": "Roughan,Matthew", "value": 100}, {"from": "Ross,Joshua Vincent", "to": "Mitchell,Lewis", "value": 300}, {"from": "Baraglia,David", "to": "Varghese,Mathai", "value": 100}, {"from": "Roughan,Matthew", "to": "Nguyen,Hung", "value": 100}, {"from": "Leistner,Thomas", "to": "Eastwood,Michael", "value": 400}, {"from": "Balasuriya,Sanjeeva", "to": "Mitchell,Lewis", "value": 100}, {"from": "Balasuriya,Sanjeeva", "to": "Maclean,John", "value": 100}, {"from": "Glonek,Garique", "to": "Lee,Sharon Xinling", "value": 100}, {"from": "Tuke,Simon", "to": "Roughan,Matthew", "value": 200}, {"from": "Black,Andrew", "to": "Peralta Gutierrez,Oscar", "value": 100}, {"from": "Roughan,Matthew", "to": "Yarom,Yuval", "value": 100}, {"from": "Roughan,Matthew", "to": "Ross,Joshua Vincent", "value": 100}, {"from": "Leistner,Thomas", "to": "Buchdahl,Nicholas", "value": 100}, {"from": "Leistner,Thomas", "to": "Baraglia,David", "value": 100}, {"from": "Tuke,Simon", "to": "Bean,Nigel", "value": 300}, {"from": "Tuke,Simon", "to": "Mitchell,Lewis", "value": 100}, {"from": "Metcalfe,Andrew", "to": "Glonek,Garique", "value": 100}, {"from": "Roughan,Matthew", "to": "Nguyen,Giang", "value": 100}, {"from": "Roughan,Matthew", "to": "Glonek,Garique", "value": 100}, {"from": "Larusson,Finnur", "to": "Leistner,Thomas", "value": 200}, {"from": "Tuke,Simon", "to": "Glonek,Garique", "value": 200}, {"from": "Roberts,Anthony John", "to": "Bunder,Judith", "value": 100}, {"from": "Roberts,Anthony John", "to": "Mattner,Trent", "value": 100}, {"from": "Murray,Michael", "to": "Stevenson,Daniel", "value": 100}, {"from": "Tuke,Simon", "to": "Huber,Christian", "value": 100}, {"from": "Larusson,Finnur", "to": "Stevenson,Daniel", "value": 200}, {"from": "Humphries,Melissa", "to": "Tuke,Simon", "value": 100}, {"from": "Humphries,Melissa", "to": "Metcalfe,Andrew", "value": 100}, {"from": "Humphries,Melissa", "to": "Lee,Sharon Xinling", "value": 100}, {"from": "Tuke,Simon", "to": "Lee,Sharon Xinling", "value": 100}, {"from": "Stevenson,Daniel", "to": "Vozzo,Raymond", "value": 200}, {"from": "Black,Andrew", "to": "Ross,Joshua Vincent", "value": 200}, {"from": "Black,Andrew", "to": "Tuke,Simon", "value": 100}, {"from": "Black,Andrew", "to": "Maclean,John", "value": 100}, {"from": "Ross,Joshua Vincent", "to": "Bean,Nigel", "value": 100}, {"from": "Stokes,Yvonne", "to": "Chen,Michael", "value": 100}, {"from": "Stokes,Yvonne", "to": "Ebendorff-Heidepriem,Heike", "value": 100}, {"from": "Glonek,Garique", "to": "Rohrlach,Adam", "value": 100}, {"from": "Glonek,Garique", "to": "Bean,Nigel", "value": 100}, {"from": "Mitchell,Lewis", "to": "Roughan,Matthew", "value": 200}, {"from": "Tuke,Simon", "to": "Boyle,Laura", "value": 100}, {"from": "Green,Edward", "to": "Buhl,Jerome", "value": 100}, {"from": "Green,Edward", "to": "Binder,Benjamin", "value": 100}, {"from": "Black,Andrew", "to": "Humphries,Melissa", "value": 100}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
