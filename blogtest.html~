@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Lewis Mitchell</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="LM.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+<!--main-->
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Lewis Mitchell</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#publications">Publications</a></li>
+	    <li><a href="#grants">Grants</a></li>
+	    <li><a href="#more">More</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Current</li>
+                <li><a href="http://myuni.adelaide.edu.au" target="_blank">DEs II, semester 1,  2016 (link to Blackboard)</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Past</li>
+                <li><a href="teaching/MATH20_2014.html">MATH 21 Spring 2014 (UVM)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+
+<!--
+<div class="bs-header splash" id="content">
+<div class="container">
+<h1>Lewis Mitchell</h1>
+</div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+
+
+
+    
+      <!--main bit-->
+      <div class="col-md-9">
+
+<!--	    <div class="jumbotron">
+      <div class="container">
+        <h1>Page under construction</h1>
+        <p>Warning! I'm still working on this new website. All sorts of links and things may not work yet.
+	In the meantime, you can visit my old website from the University of Vermont.</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="http://www.uvm.edu/~lmitche1">Go to my old wesbite &raquo;</a></p>
+      </div>
+    </div>
+-->
+	<div class="row">
+	<div class="col-md-7">
+
+        <h2 style="padding-top: 50px; margin-top: -50px;" id="about" >About</h2>
+        <p>
+        I'm a lecturer in applied mathematics at the University of Adelaide.
+	My research interests are in data assimilation, 
+	computational social science,
+	human dynamics and social networks,
+	and the mathematics of weather and climate. 
+        </p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="files/Resume.pdf" target="_blank" role="button">My CV</a>
+        </p>
+        <p>
+        <u>Email</u>: <a href="mailto:lewis.mitchell@adelaide.edu.au">lewis.mitchell@adelaide.edu.au</a>
+	<br>
+	<u>Phone</u>: +61 8 8313 5424
+        <br>
+        <u>Office</u>: <p class="office">Ingkarni Wardli <b>6.46</b>
+	<br>
+	School of Mathematical Sciences
+        <br>
+	North Terrace Campus
+	<br>
+	The University of Adelaide
+	<br>
+	SA 5005 Australia</p>
+
+<!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.5078804176883!2d138.6053181!3d-34.91879749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c92cc1416649%3A0xd271a5805cecc241!2sIngkarni+Wardli%2C+The+University+of+Adelaide%2C+Adelaide+SA+5000!5e0!3m2!1sen!2sau!4v1405915593682" width="400" height="300" frameborder="0" style="border:0"></iframe>
+-->
+        </p>
+        </div>
+	<div class="col-md-2">
+	  <a href="http://owpdb.mfo.de/detail?photo_id=17305" target="_blank"><img src="files/MFOpic_cropped.jpg"></a>
+	</div>
+	</div>
+
+
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h2 style="padding-top: 50px; margin-top: -55px; padding-bottom: 50px; margin-bottom:-55px;" id="news">News</h2>
+	  </div>
+	  <div class="panel-body">
+
+
+                 <div class="col-md-9 blogShort">
+                     <h1>Fast Forward Academy</h1>
+                     <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/guinnes-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     
+                         <em>This snippet use <a href="http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation" target="_blank">Sexy Sidebar Navigation</a></em>
+                     <article><p>
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                         of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                         Lorem Ipsum.    
+                         </p>
+                             <p></p>
+                         </article>
+                     <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">More Information</a> 
+                 </div>
+                  <div class="col-md-9 blogShort">
+                     <h1>Title 2</h1>
+                     <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_4073-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     <article><p>
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                         of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                         Lorem Ipsum.
+                         </p></article>
+                     <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ MORE</a> 
+                 </div>
+                 
+                  <div class="col-md-9 blogShort">
+                     <h1>Title 3</h1>
+                     <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_1681-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     <article><p>
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                         of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                         Lorem Ipsum.
+                         </p></article>
+                     <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ MORE</a> 
+                 </div>
+                 
+               <div class="col-md-12 gap10"></div>
+             </div>
+
+
+	    <!--	    <li>
+	      <b>Two</b> <a href="http://careers.adelaide.edu.au/cw/en/job/494727/research-engineer" target=_blank>research engineer positions available</a> 
+	      in real-time event prediction using open social data: 
+	      (i) disease outbreak prediction using data assimilation, and
+	      (ii) election/social disruption prediction using Bayesian networks.
+	      Come to Adelaide and work on computational social science, big data, social network analysis, and event prediction!
+	      Applications close: <b>13 May 2016</b>.
+            </li>
+	    <br>-->
+	    <li>
+	      University of Adelaide Undergraduate Summer Scholarships <a href="http://www.ecms.adelaide.edu.au/scholarships/summer/" target="_blank">are on again</a>!
+	      Check out my projects on the list <a href="http://maths.adelaide.edu.au/media/2016_2017%20-%20Vacation%20Topics%20Document.pdf" target="_blank">here</a>
+	      (or propose your own), come and have a chat, and apply!
+	    </li> 	    
+	    <li>
+              PhD top-up scholarships for Australian and international students are
+              <a href="http://www.d2dcrc.com.au/education-training/phd-scholarships/#scholarships" target="_blank">available</a>
+              for projects in data science,
+	      disease, election, and civil unrest prediction,
+              funded by <a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions</a> CRC.
+              Check them out, and apply!
+            </li>
+<!--	    <br>
+	    <li>
+	      Are you finishing an undergrad degree and interested in data science, computational social science, or social networks?
+	      <a href="http://maths.adelaide.edu.au/students/honours.html" target="_blank">Applications are now open</a> 
+	      for Honours at the University of Adelaide,
+	      come and have a chat with me!
+	      Expressions of interest close 1 November 2015.
+            </li>
+-->
+<!--	    
+	    <br>
+	    <li>
+	      University of Adelaide Undergraduate 2015-16 Summer Scholarships are open!
+	      Take a look at my projects on hedonometrics and culturomics amongst the list 
+	      <a href="http://maths.adelaide.edu.au/media/2015_2016-Vacation%20Topics%20Document.pdf" target="_blank">here</a>
+	      (or feel free to propose your own),
+	      come and have a chat,
+	      then apply
+	      <a href="http://maths.adelaide.edu.au/media/2015_2016_Adelaide%20Summer%20Research%20Application%20Form.pdf" target="_blank">here</a>.
+	      Other exciting projects about contagious ideas on social networks are also possible, please ask!
+	    </li>
+-->
+	  </div>
+	</div>
+	
+
+        
+        
+        <h2 style="padding-top: 50px; margin-top: -50px;" id="publications">Publications</h2>
+        
+        <h4>[My <a href="http://scholar.google.com/citations?hl=en&amp;user=Gy-X2vgAAAAJ" target="_blank">Google Scholar</a> citations]</h4>
+        
+        <h4 id="journal_articles">Published journal articles:</h4>
+
+        <ol reversed>
+	  
+
+	  <li><p>
+	      P. S. Dodds, L. Mitchell, A. Reagan, and C. M. Danforth.
+	      <br>
+	      <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154184" target="_blank">Tracking Climate Change through the Spatiotemporal Dynamics of the Teletherms, the Statistically Hottest and Coldest Days of the Year</a>.
+	      <br>
+	      <i>PLoS ONE</i> 11(5): e0154184, 2016.
+	      <br>
+	      [<a href="http://compstorylab.org/share/papers/dodds2015c/" target="_blank">Online appendices</a>]
+	      [<a href="https://twitter.com/teletherm" target="_blank">Twitter account</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      D. P. Kiley, A. J. Reagan, L. Mitchell, C. M. Danforth, and P. S. Dodds.
+	      <br>
+	      <a href="http://arxiv.org/abs/1507.03886" target="_blank">The game story space of professional sports: Australian Rules Football</a>. 
+	      <br>
+	      <i>Physical Review E</i> (accepted),
+	      2016.
+	  </p></li>
+
+
+        <li><p>
+	  E. M. Cody, A. J. Reagan, L. Mitchell, P. S. Dodds, and C. M. Danforth.
+	  <br>
+	  <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136092" target="_blank">
+	    Climate change sentiment on Twitter: An unsolicited public opinion poll</a>. 
+	  <br>
+	  <i>PLoS ONE</i>, 
+	  10(8): e0136092,
+	  2015.
+	</p></li>
+
+
+	<li><p>
+	  P. S. Dodds, E. M. Clark, S. Desu, M. R. Frank, A. J. Reagan, J. R. Williams, 
+	  L. Mitchell, K. D. Harris, I. M. Kloumann, J. P. Bagrow, K. Megerdoomian, 
+	  M. T. McMahon, B. F. Tivnan, and C. M. Danforth.
+	  <br>
+	  <a href="http://www.pnas.org/content/112/8/2389" target="_blank">Human language reveals a universal positivity bias</a>. 
+	  <br>
+	  <i>PNAS</i>,
+	  111(8): 2389-2394
+	  2015.
+	  <br>
+	  [<a href="http://www.uvm.edu/storylab/share/papers/dodds2014a/" target="_blank">Online appendices</a>] 
+	  [<a href="http://arxiv.org/abs/1505.06750" target="_blank">Reply to Garcia et al.: Common mistakes in measuring frequency dependent word characteristics</a>]
+	</p></li>
+
+
+	  <li><p>
+	  L. Mitchell and A. Carrassi.
+	  <br>
+	  <a href="files/Mitchell_QJRMS_2014.pdf" target="_blank">Accounting for model error due to unresolved scales within ensemble Kalman filtering</a>.
+	  <br>
+	  <i>Quarterly Journal of the Royal Meteorological Society</i>, 
+	  DOI:10.1002/qj.2451,
+	  2014.
+	  <br>
+          [<a href="http://arxiv.org/abs/1409.0589" target="_blank" target="_blank">arxiv version</a>]
+	</p></li>
+
+
+
+        <li><p>
+	  T. Bellsky, J. Berwald and L. Mitchell. 
+	  <br>
+	  <a href="http://arxiv.org/abs/1306.3488">Non-global parameter estimation using local ensemble Kalman filtering</a>. 
+	  <br>
+	  <i>Monthly Weather Review</i>, 142 (6), pp. 2150–2164, 2014.
+        </p></li>
+
+
+	<li><p>
+	  M. R. Frank, L. Mitchell, P. S. Dodds and C. M. Danforth.
+	  <br>
+	  <a href="http://arxiv.org/abs/1312.5965" target="_blank">Standing swells surveyed showing surprisingly stable solutions for the Lorenz 96 Model.</a>
+	  <br>
+	  <i>International Journal of Bifurcations and Chaos</i> (to appear),
+	  2014.
+	</p></li>
+
+	
+	<li><p>
+        L. Mitchell, M. R. Frank, K. D. Harris, P. S. Dodds and C. M. Danforth.
+	<br>
+	<a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0064417" target="_blank">The Geography of Happiness: Connecting Twitter sentiment and expression, demographics, and objective characteristics of place</a>.
+	<br>
+	<i>PLoS ONE</i>, 8(5): e64417, 2013.
+        <br>
+        [<a href="http://arxiv.org/abs/1302.3299" target="_blank" target="_blank">arxiv version</a>] 
+	[<a href="http://www.uvm.edu/storylab/share/papers/mitchell2013a/" target="_blank">Online appendices</a>] 
+	[<a href="https://twitter.com/geographyofhapp" target="_blank">Twitter account</a>]
+	[<a href="http://www.hedonometer.org/maps.html" target="_blank">Daily updating map</a>]
+        </p></li>
+                    
+        <li><p>
+        M. R. Frank, L. Mitchell, P. S. Dodds and C. M. Danforth.
+	<br>
+	<a href="http://www.nature.com/srep/2013/130911/srep02625/full/srep02625.html" target="_blank">Happiness and the Patterns of Life: A Study of Geolocated Tweets</a>.
+	<br>
+	<i>Scientific Reports</i>, 3: 2625, 2013.
+        </p></li>
+        
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/Mitchell_QJRMS_2013.pdf" href="files/Mitchell_QJRMS_2013.pdf" target="_blank">Controlling model error of underdamped forecast models in sparse observational networks using a variance limiting Kalman filter</a>.
+	<br>
+	<i>Quarterly Journal of the Royal Meteorological Society</i>, 139 (670), pp. 212-225, 2013.
+        </p></li>
+
+
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/FSLE_Chaos.pdf" href="files/FSLE_Chaos.pdf" target="_blank">On finite-size Lyapunov exponents in multiscale systems</a>.
+	<br>
+	<i>Chaos</i>, 22 (2), 023115, 2012.
+        </p></li>
+        
+        
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/Mitchell_JAS_2012.pdf" href="files/Mitchell_JAS_2012.pdf" target="_blank">Data assimilation in slow-fast systems using homogenized climate models</a>.
+	<br>
+	<i>Journal of the Atmospheric Sciences</i>, 69 (4), pp. 1359-1377, 2012.
+        </p></li>
+        
+        <li><p>
+        G. A. Gottwald, L. Mitchell and S. Reich.
+	<br>
+	<a title="files/Gottwald_MWR_2011.pdf" href="files/Gottwald_MWR_2011.pdf" target="_blank">Controlling error overestimation of error covariance in ensemble Kalman filters with sparse observations: A variance-limiting Kalman filter</a>.
+	<br>
+	<i>Monthly Weather Review</i>, 139 (8), pp. 2650-2667, 2011.
+	<br>
+	[<a href="http://arxiv.org/abs/1108.5801" target="_blank" target="_blank">arxiv version</a>]
+        </p></li>
+        
+        
+        <li><p>
+        S.-P. Zhu and L. Mitchell.
+	<br>
+	<a title="files/ZhuMitchell_JAMC_2011.pdf" href="files/ZhuMitchell_JAMC_2011.pdf" target="_blank">
+	  Combined diffraction and radiation of ocean waves around an OWC device</a>.
+	<br>
+	<i>Journal of Applied Mathematics and Computing</i>, 36 (1-2), pp. 401-416, 2010.
+	</p></li>
+        
+        
+        <li><p>
+        S.-P. Zhu and L. Mitchell.
+	<br>
+	<a title="files/Zhu_WaveMotion_2009.pdf" href="files/Zhu_WaveMotion_2009.pdf" target="_blank">Diffraction of ocean waves around a hollow cylindrical shell structure</a>.
+	<br>
+	<i>Wave Motion</i>, 46 (1), pp. 78-88, 2009.
+        </p></li>
+        
+
+        </ol>
+
+
+        <br>
+
+
+  <h4 id="in_review">In review or preparation:</h4>
+
+
+<li><p>
+    L. Mitchell and J. V. Ross.
+    <br>
+    A data-driven model for influenza transmission incorporating media effects
+    (submitted), 
+    2016.
+</p></li>
+
+<li><p>
+    A. J. Reagan, L. Mitchell, D. Kiley, C. M. Danforth, and P. S. Dodds.
+    <br>
+    <a href="http://arxiv.org/abs/1606.07772" target="_blank">The emotional arcs of stories are dominated by six basic shapes</a>
+    (submitted), 
+    2016.
+</p></li>
+
+<li><p>
+    T. Bellsky and L. Mitchell.
+    <br>
+    A shadowing-based inflation scheme for ensemble data assimilation
+    (submitted), 
+    2016.
+</p></li>
+ 
+<li><p>
+    S. E. Alajajian, J. R. Williams, A. J. Reagan, S. C. Alajajian, M. R. Frank, L. Mitchell, J. Lahne, C. M. Danforth, and P. S. Dodds.
+    <br>
+    <a href="http://arxiv.org/abs/1507.05098" target="_blank">The Lexicocalorimeter: Gauging public health through caloric input and output on social media</a> 
+    (submitted), 
+    2015.
+    <br>
+    [<a href="http://panometer.org/instruments/lexicocalorimeter/" target="_blank">panometer.org dashboard</a>]
+    [<a href="http://compstorylab.org/share/papers/alajajian2015a/" target="_blank">Online appendices</a>]
+</p></li>
+
+
+<li><p>
+    M. R. Frank, J. R. Williams, L. Mitchell, J. P. Bagrow, P. S. Dodds, and C. M. Danforth.
+    <br>
+    <a href="http://arxiv.org/abs/1410.1393" target="_blank">Constructing a taxonomy of fine-grained human movement and activity motifs through social media</a> 
+    (submitted), 
+    2014.
+</p></li>
+
+
+<li><p>
+    J. P. Bagrow, S. Desu, M. R. Frank, N. Manukyan, 
+    L. Mitchell, A. Reagan, E. E. Bloedorn, L. B. Booker, 
+    L. K. Branting, M. J. Smith, B. F. Tivnan, C. M. Danforth, 
+    P. S. Dodds, and J. C. Bongard.
+    <br>
+    <a href="http://arxiv.org/abs/1312.6122" target="_blank"> Shadow networks: Discovering hidden nodes with models of information flow</a> 
+    (in preparation), 
+    2013.
+</p></li>
+
+
+
+	<br>
+
+
+
+
+
+        <h4 id="other_publications">Selected short articles, blog posts, etc:</h4>
+
+<li><p>
+    L. Mitchell.
+    <a href="https://theconversation.com/how-twitter-gives-scientists-a-window-into-human-happiness-and-health-62255" target="_blank">How Twitter gives scientists a window into human happiness and health</a>.
+    <a title="https://theconversation.com" href="https://theconversation.com" target="_blank">The Conversation</a>, July 2016.
+</p></li>
+
+<li><p>
+    J. McVernon, J. V. Ross, K. Glass, L. Mitchell, N. Geard, R. Moss.
+    <a href="https://theconversation.com/computing-helps-the-study-of-infections-on-a-global-and-local-scale-58152" target="_blank">Computing helps the study of infections on a global and local scale</a>. 
+    <a title="https://theconversation.com/au" href="https://theconversation.com/au" target="_blank">The Conversation</a>, June 2016.
+</p></li>
+
+<li><p>
+    <a href="http://www.uvm.edu/storylab/2013/02/18/where-is-the-happiest-city-in-the-usa/" target="_blank">Where is the happiest city in the USA?</a> Blog post, <a title="http://www.compstorylab.org" href="http://www.compstorylab.org" target="_blank">compstorylab.org</a>, February 2013.
+</p></li>
+
+<li><p>
+    L. Mitchell. <a title="http://www.austms.org.au/Publ/Gazette/2010/Sep10/TechPaperMitchell.pdf" href="http://www.austms.org.au/Publ/Gazette/2010/Sep10/TechPaperMitchell.pdf" target="_blank">Using statistical data to improve weather forecasting</a>. <i>Gazette of the Australian Mathematical Society</i>, 37 (4), pp. 242-243, 2010.
+</p></li>
+
+
+<li><p>
+    L. Mitchell and S.-P. Zhu. <a title="files/OMAE2008-57171.pdf" href="files/OMAE2008-57171.pdf" target="_blank">Linear diffraction and radiation of surface waves by a hollow suspended cylindrical shell</a>. Proceedings of the ASME 27th International Conference on Offshore Mechanics and Arctic Engineering (OMAE 2008), June 2008.
+</p></li>
+
+
+<br>
+
+
+
+<h2 style="padding-top: 50px; margin-top: -50px;" id="grants" >Grants:</h2>
+<p>
+<li> 
+<a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions CRC</a> 
+Beat The News Project: 
+<i>Predicting common and novel disease outbreaks by assimilating open data into epidemiological models</i>
+(with A/Prof. Joshua Ross and Prof. Nigel Bean) 
+($637,606 over 3 years)
+</li>
+
+<li>
+<a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions CRC</a>
+Beat The News Project:
+<i>Predicting civil unrest and election outcomes using Bayesian network models</i>
+(with Dr. Jonathan Tuke and Prof. Nigel Bean)
+($661,261 over 3 years)
+</li>
+</p>
+
+<br>
+
+<h2 style="padding-top: 50px; margin-top: -50px;" id="more" >Talks, media and more:</h2>
+
+
+<h4 id="talks">Selected talks:</h3>
+
+<p>
+
+
+  <li>
+    Big Happy: Revealing the character of cities through data (TEDx talk). 
+    <br>
+    <a href="http://www.uvm.edu/~tedxuvm" target="_blank">TEDxUVM</a>, Burlington VT, October 2012.
+    <br>
+    <iframe width="420" height="315" src="//www.youtube.com/embed/rZd52_Nq3n0" frameborder="0" allowfullscreen></iframe>
+  </li>
+
+
+</p>
+
+
+
+
+<h4 id="media">Selected media:</h3>
+
+<p>
+  
+  <li>
+    <a href="http://www.washingtonpost.com/news/speaking-of-science/wp/2015/07/29/twitter-can-tell-which-states-love-jogging-and-which-are-eating-hot-dogs/" target="_blank">
+    Twitter can tell which states love jogging and which are eating hot dogs</a>.
+    <br>
+    Washington Post. July 29, 2015.
+  </li>
+
+
+  <li>
+    <a href="https://cosmosmagazine.com/life-sciences/does-language-work-make-world-happier-place" target="_blank">
+      Does langauge work to make the world a happier place?
+    </a>
+    <br>
+    Cosmos Magazine. February 16, 2015.
+  </li>
+
+  <li>
+    <a href="http://www.abc.net.au/science/articles/2015/02/10/4176587.htm" target="_blank">Language proves we're all optimists at heart</a>.
+    <br>
+    ABC News in Science. February 10, 2015.
+  </li>
+
+  <li>
+    <a href="http://www.huffingtonpost.com/2013/08/02/happiest-states-_n_3696160.html" target="_blank">The Happiest States In America In One Map (INFOGRAPHIC)</a>.
+    <br>
+    Huffington Post. August 2, 2013.
+  </li>
+
+
+  <li>
+    <a href="http://www.bbc.com/future/story/20130411-want-to-be-happy-travel-further" target="_blank">Twitter study: Happiness rises the further you travel</a>.
+    <br>
+    BBC Future. April 11, 2013.
+  </li>
+
+  <li>
+    <a href="http://newsfeed.time.com/2013/02/25/new-study-uses-tweets-to-rank-americas-happiest-cities-states/" target="_blank">New Study Uses Tweets To Rank America’s Happiest Cities, States</a>.
+    <br>
+    Time Magazine Online. February 25, 2013.
+  </li>
+
+  
+  <li>
+    <a href="http://www.theatlantic.com/technology/archive/2013/02/the-geography-of-happiness-according-to-10-million-tweets/273286/" target="_blank">The geography of happiness according to 10 million tweets</a>.
+    <br>
+    The Atlantic. February 19, 2013.
+  </li>
+
+
+
+  
+</p>
+
+
+
+<h4 id="other">Other:</h3>
+
+<p>
+  <li><a href="http://www.hedonometer.org">hedonometer.org</a>,
+    a project from the University of Vermont's Computational Story Lab tracking daily happiness online. 
+    <br>
+    The <a href="http://www.hedonometer.org/maps.html" target="_blank">Map</a> section is
+    inspired by my Geography of Happiness paper.
+    Tweet any interesting trends you discover! 
+    <br>
+    
+  <li><a href="http://www.compstorylab.org">compstorylab.org</a>,
+    the Computational Story Lab's blog (I have some blog posts here).
+    <br>
+    
+  <li>The 
+    <a href="http://www.uvm.edu/storylab/share/papers/dodds2014a/" target="_blank">online appendices</a> 
+    for our paper on the <a href="http://arxiv.org/abs/1406.3855" target="_blank">universal positivity bias across languages</a> 
+    allows you to explore the "shape of stories" 
+    (a la <a href="https://www.youtube.com/watch?v=oP3c1h8v2ZQ" target="_blank">Kurt Vonegut</a>) 
+    for a number of classic novels. 
+    You also explore the emotional trajectories of over 1000 different
+    <a href="http://hedonometer.org/movies/list.html" target="_blank">movies</a>.
+    
+<!--  <li>You should watch the excellent 
+    <a href="http://www.bagrow.com" target="_blank">Jim Bagrow</a> 
+    talking about our work on how predictable the things people say are at UVM's 2014 
+    <a href="http://www.uvm.edu/~cmplxsys/events/prediction-the-next-big-thing/" target="_blank">MacMillan symposium</a>:
+    <br>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/ZALXGZl6G4s" frameborder="0" allowfullscreen></iframe>				
+-->
+</p>
+
+
+
+
+
+
+
+        </div><!--/right-->
+
+
+<div class="col-md-3"><div data-spy="affix" class="bs-sidebar">
+<ul class="nav bs-sidenav">
+<a class="twitter-timeline" href="https://twitter.com/lewis_math" data-widget-id="419196519401541632">Tweets by @lewis_math</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</ul>
+</div></div>
+
+      </div><!--/row-->
+       
+</div><!--/container-->
+
+
+<br><br>
+
+    <div class="footer">
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53015972-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

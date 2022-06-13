@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Lewis Mitchell</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="LM.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+  </head>
+
+  <body>
+
+
+<!--main-->
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Lewis Mitchell</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#publications">Publications</a></li>
+	    <li><a href="#grants">Grants</a></li>
+	    <li><a href="#more">More</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Current</li>
+                <li><a href="http://myuni.adelaide.edu.au" target="_blank">DEs II, semester 1,  2016 (link to Blackboard)</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Past</li>
+                <li><a href="teaching/MATH20_2014.html">MATH 21 Spring 2014 (UVM)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+
+<!--
+<div class="bs-header splash" id="content">
+<div class="container">
+<h1>Lewis Mitchell</h1>
+</div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+
+
+
+    
+      <!--main bit-->
+      <div class="col-md-9">
+
+<!--	    <div class="jumbotron">
+      <div class="container">
+        <h1>Page under construction</h1>
+        <p>Warning! I'm still working on this new website. All sorts of links and things may not work yet.
+	In the meantime, you can visit my old website from the University of Vermont.</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="http://www.uvm.edu/~lmitche1">Go to my old wesbite &raquo;</a></p>
+      </div>
+    </div>
+-->
+	<div class="row">
+	<div class="col-md-7">
+
+        <h2 style="padding-top: 50px; margin-top: -50px;" id="about" >About</h2>
+        <p>
+        I'm a Senior Lecturer in Applied Mathematics at the University of Adelaide.
+	I study how information moves over social networks using mathematical
+	models, coupled with data science techniques.
+	My research interests are in computational social science,
+	human dynamics, online social networks,
+	as well as data assimilation and the mathematics of weather and climate. 
+        </p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="files/CV_full.pdf" target="_blank" role="button">My CV (July 2019)</a>
+        </p>
+        <p>
+        <u>Email</u>: <a href="mailto:lewis.mitchell@adelaide.edu.au">lewis.mitchell@adelaide.edu.au</a>
+	<br>
+	<u>Phone</u>: +61 8 8313 5424
+        <br>
+        <u>Office</u>: <p class="office">Ingkarni Wardli <b>6.46</b>
+	<br>
+	School of Mathematical Sciences
+        <br>
+	North Terrace Campus
+	<br>
+	The University of Adelaide
+	<br>
+	SA 5005 Australia</p>
+
+<!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.5078804176883!2d138.6053181!3d-34.91879749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c92cc1416649%3A0xd271a5805cecc241!2sIngkarni+Wardli%2C+The+University+of+Adelaide%2C+Adelaide+SA+5000!5e0!3m2!1sen!2sau!4v1405915593682" width="400" height="300" frameborder="0" style="border:0"></iframe>
+-->
+        </p>
+        </div>
+	<div class="col-md-2">
+	  <a href="http://owpdb.mfo.de/detail?photo_id=17305" target="_blank"><img src="files/MFOpic_cropped.jpg"></a>
+	</div>
+	</div>
+        
+
+<!--	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h2 style="padding-top: 50px; margin-top: -55px; padding-bottom: 50px; margin-bottom:-55px;" id="news">News</h2>
+	  </div>
+	  <div class="panel-body">
+-->
+
+<!--	    <li>
+	      Come and work with us! We're advertising an exciting new postdoctoral position in data mining online sources and the "dark web" to monitor illegal wildlife trade.
+	      You'll join a dynamic team across the mathematical and biological sciences, working with myself, Joshua Ross, and Phill Cassey at the University of Adelaide.
+	      Applications close 9 March, <a href="http://careers.adelaide.edu.au/cw/en/job/498006/research-associate-in-the-school-of-mathematical-sciences" target="_blank">check out the advertisement</a>!
+	    </li>
+-->
+	    <!--	    <li>
+	      <b>Two</b> <a href="http://careers.adelaide.edu.au/cw/en/job/494727/research-engineer" target=_blank>research engineer positions available</a> 
+	      in real-time event prediction using open social data: 
+	      (i) disease outbreak prediction using data assimilation, and
+	      (ii) election/social disruption prediction using Bayesian networks.
+	      Come to Adelaide and work on computational social science, big data, social network analysis, and event prediction!
+	      Applications close: <b>13 May 2016</b>.
+            </li>
+	    <br>-->
+	    <!--
+	    <li>
+	      University of Adelaide Undergraduate Summer Scholarships <a href="http://www.ecms.adelaide.edu.au/scholarships/summer/" target="_blank">are on again</a>!
+	      Check out my projects on the list <a href="http://maths.adelaide.edu.au/media/2016_2017%20-%20Vacation%20Topics%20Document.pdf" target="_blank">here</a>
+	      (or propose your own), come and have a chat, and apply!
+	    </li>
+ 	    -->
+
+<!--	    <li>
+              Congratulations to Jessica, Rose, Michael and Tobin, who were all awarded Summer Vacation Research Scholarships 
+	      from the University of Adelaide to work on data science-related projects this summer! Stay tuned for more on what
+	      they get up to...
+            </li>
+-->
+
+<!--
+	    <li>
+              PhD top-up scholarships for Australian and international students are
+              <a href="http://www.d2dcrc.com.au/education-training/phd-scholarships/#scholarships" target="_blank">available</a>
+              for projects in data science,
+	      disease, election, and civil unrest prediction,
+              funded by <a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions</a> CRC.
+              Check them out, and apply!
+            </li>
+-->
+
+<!--	    <br>
+	    <li>
+	      Are you finishing an undergrad degree and interested in data science, computational social science, or social networks?
+	      <a href="http://maths.adelaide.edu.au/students/honours.html" target="_blank">Applications are now open</a> 
+	      for Honours at the University of Adelaide,
+	      come and have a chat with me!
+	      Expressions of interest close 1 November 2015.
+            </li>
+-->
+<!--	    
+	    <br>
+	    <li>
+	      University of Adelaide Undergraduate 2015-16 Summer Scholarships are open!
+	      Take a look at my projects on hedonometrics and culturomics amongst the list 
+	      <a href="http://maths.adelaide.edu.au/media/2015_2016-Vacation%20Topics%20Document.pdf" target="_blank">here</a>
+	      (or feel free to propose your own),
+	      come and have a chat,
+	      then apply
+	      <a href="http://maths.adelaide.edu.au/media/2015_2016_Adelaide%20Summer%20Research%20Application%20Form.pdf" target="_blank">here</a>.
+	      Other exciting projects about contagious ideas on social networks are also possible, please ask!
+	    </li>
+-->
+
+<!--
+	  </div>
+	</div>
+-->	
+        
+        
+        <h2 style="padding-top: 50px; margin-top: -50px;" id="publications">Publications</h2>
+        
+        <h4>[My <a href="http://scholar.google.com/citations?hl=en&amp;user=Gy-X2vgAAAAJ" target="_blank">Google Scholar</a> citations]</h4>
+        
+        <h4 id="journal_articles">Published articles</h4>
+
+        <ol reversed>
+
+          <!--2020-->
+  <li><p>
+      T. Pond, S. Magsarjav, T. South, L. Mitchell, and J. P. Bagrow.
+      <br>
+      <a href="https://www.mdpi.com/1099-4300/22/3/265" target="_blank">Complex contagion features without social reinforcement in a model of social information flow</a>.
+      <br>
+      <i>Entropy</i>,
+      22(3): 265, 2020. 
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.3390/e22030265" data-condensed="true" data-hide-no-m\
+entions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+  </p></li>
+
+
+  <li><p>
+      M. Roughan, L. Mitchell, and T. South.
+      <br>
+      <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223833" target="_blank">How the Avengers assemble: Ecological modelling of effective cast sizes for movies</a>.
+      <br>
+      <i>PLoS ONE</i>,
+      15(2): e0223833, 2020. 
+<span data-badge-popover="right" data-badge-type="4" data-doi="10.1371/journal.pone.0223833" data-condensed="true" data-hide-no-m\
+entions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+<br>
+[<a href="https://github.com/mroughan/AlephZeroHeroesData" target="_blank">github</a>]
+  </p></li>
+
+
+	  <li><p>
+	      J. Tuke, A. Nguyen, M. Nasim, D. Mellor, A. Wickramasinghe, N. G. Bean, and L. Mitchell.
+	      <br>
+	      <a href="https://www.sciencedirect.com/science/article/pii/S0306457318307817" target="_blank">Pachinko Prediction: A Bayesian method for event prediction from social media data</a>.
+	      <br>
+	      <i>Information Processing and Management</i>,  
+	      57(2), 102147, 2020.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1016/j.ipm.2019.102147" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="https://arxiv.org/abs/1809.08427" target="_blank">arXiv version</a>]
+	  </p></li>
+	  
+
+
+
+
+	  <!--2019-->
+
+
+	  <li><p>
+	      J. P. Bagrow, X. Liu, and L. Mitchell.
+	      <br>
+	      <a href="https://www.nature.com/articles/s41562-018-0510-5" target="_blank">Information flow reveals prediction limits in online social activity</a>.
+	      <br>
+	      <i>Nature Human Behaviour</i>,  
+	      3: 122–128, 2019.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/s41562-018-0510-5" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="https://arxiv.org/abs/1708.04575" target="_blank">arXiv version</a>]
+	  </p></li>
+	  
+
+	  <li><p>
+	      C. Gray, L. Mitchell, and M. Roughan.
+	      <br>
+	      <a href="https://academic.oup.com/comnet/advance-article/doi/10.1093/comnet/cnz011/5415736?guestAccessKey=847c8ac5-f90e-4b42-b3e1-8503de742f55" target="_blank">Generating Connected Random Graphs</a>.
+	      <br>
+	      <i>Journal of Complex Networks</i>,  
+	      cnz011, doi:10.1093/comnet/cnz011, 2019.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1093/comnet/cnz011" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="https://arxiv.org/abs/1806.11276" target="_blank">arXiv version</a>] [<a href="https://github.com/caitlin-gray/ConnectedGraphGen" target="_blank">github</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      M. Glonek, J. Tuke, L. Mitchell, and N. Bean.
+	      <br>
+	      <a href="https://link.springer.com/article/10.1007/s41109-019-0185-5" target="_blank">Semi-supervised graph labelling reveals increasing partisanship in the United States Congress</a>.
+	      <br>
+	      <i>Applied Network Science</i>,  
+	      4 (1), 62, 2019.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1007/s41109-019-0185-5" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	  </p></li>
+	  
+
+	  <li><p>
+	      D. Dharmaprani, M. Schopp, P. Kuklik, D. Chapman, A. Lahiri, L. Dykes, F. Xiong, M. Aguilar, B. Strauss, L. Mitchell, K. Pope, C. Meyer, S. Willems, F. G. Akar, S. Nattel, A. D. McGavigan, A. N. Ganesan.
+	      <br>
+	      <a href="https://www.ahajournals.org/doi/abs/10.1161/CIRCEP.119.007569" target="_blank">Renewal Theory as a Universal Quantitative Framework to Characterize Phase Singularity Regeneration in Mammalian Cardiac Fibrillation</a>.
+	      <br>
+	      <i>Circulation: Arrhythmia and Electrophysiology</i>,
+	      12(12):e007569, 2019.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1161/CIRCEP.119.007569" data-condensed="true" data-hide-no-mentions="true" data-hide-\
+less-than="10" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="https://www.biorxiv.org/content/10.1101/599142v1" target="_blank">bioRxiv version</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      A. Nguyen, T. South, N. Bean, J. Tuke, and L. Mitchell.
+	      <br>
+	      <a href="https://www.aclweb.org/anthology/papers/S/S19/S19-2050/" target="_blank">Podlab at SemEval-2019 Task 3: The Importance of Being Shallow</a>.
+	      <br>
+	      <i>Proceedings of the 13th International Workshop on Semantic Evaluation (SemEval '19)</i>,
+	      292-296,
+	      2019.
+	  </p></li>
+
+
+	  <li><p>
+	      V. Glenny, J. Tuke, N. Bean, and L. Mitchell.
+	      <br>
+	      <a href="https://aclweb.org/anthology/papers/W/W19/W19-2508/" target="_blank">A framework for streamlined statistical prediction using topic models</a>.
+	      <br>
+	      <i>Proceedings of the 3rd Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</i>,
+	      61-70, 2019.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1904.06941" target="_blank">arXiv version</a>]
+	  </p></li>
+
+	  
+	  <!--2018-->
+	  
+	  <li><p>
+	      R. C. Cope, J. V. Ross, M. Chilver, N. P. Stocks, and L. Mitchell.
+	      <br>
+	      <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006377" target="_blank">Characterising seasonal influenza epidemiology using primary care surveillance data</a>.
+	      <br>
+	      <i>PLoS Computational Biology</i>,
+	      14(8): e1006377, 2018.
+	  </p></li>  
+	  
+	  <li><p>
+	      J. P Bagrow and L. Mitchell.
+	      <br>
+	      <a href="https://aip.scitation.org/doi/10.1063/1.5011403" target="_blank">The quoter model: A paradigmatic model of the social flow of written information</a>.
+	      <br>
+	      <i>Chaos</i>,
+	      28: 075304,
+	      2018.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1063/1.5011403" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="50" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="https://arxiv.org/abs/1711.00326" target="_blank">arXiv version</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      M. Glonek, J. Tuke, L. Mitchell, and N. Bean.
+	      <br>
+	      <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-05411-3_25" target="_blank">GLaSS: Semi-supervised graph labelling with Markov random walks to absorption</a>.
+	      <br>
+	      <i>COMPLEX NETWORKS 2018: Complex Networks and Their Applications VII</i>,
+	      304-15,
+	      2018.
+	      <br>
+	      [<a href="files/Glonek_ComplexNetworks_2018.pdf" target="_blank">pdf</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      P. Mathews, C. Gray, L. Mitchell, G. T. Nguyen, and N. G. Bean.
+	      <br>
+	      <a href="https://arxiv.org/abs/1811.05063" target="_blank">SMERC: Social media event response clustering using textual and temporal information</a>.
+	      <br>
+	      <i>Proceedings of the 2018 International Workshop on Big Social Media Data Management and Analysis (BSMDMA2018)</i>,
+	      2018.
+	  </p></li>
+
+
+
+
+
+
+	  <li><p>
+	      T. Bellsky and L. Mitchell.
+	      <br>
+	      <a href="https://www.sciencedirect.com/science/article/pii/S0167278918301568" target="_blank">A shadowing-based inflation scheme for ensemble data assimilation</a>.
+	      <br>
+	      <i>Physica D</i>,
+	      doi: 10.1016/j.physd.2018.05.002,
+	      2018.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1805.07011" target="_blank">arXiv version</a>]
+	  </p></li>
+  
+	  <li><p>
+	      A. Hany Hossny, T. Moschou, G. Osborne,  L. Mitchell, and N. Lothian.
+	      <br>
+	      <a href="https://link.springer.com/article/10.1007/s13278-018-0519-9" target="_blank">Enhancing keyword correlation for event detection in social networks using SVD and k-means: Twitter case study</a>.
+	      <br>
+	      <i>Social Network Analysis and Mining</i>,
+	      8: 49,
+	      2018.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1807.09561" target="_blank">arXiv version</a>]
+	  </p></li>
+
+	  <li><p>
+	      C. Gray, L. Mitchell, and M. Roughan.
+	      <br>
+	      <a href="https://dl.acm.org/citation.cfm?id=3184558.3191590" target="_blank">Super-blockers and the effect of network structure on information cascades</a>.
+	      <br>
+	      <i>Proceedings of the 26th International Conference on the World Wide Web (WWW '18) Companion</i>,
+	      1435-1441, 2018.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1802.05039" target="_blank">arXiv version</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      M. Nasim, A. Nguyen, N. Lothian, R. C. Cope, and L. Mitchell.
+	      <br>
+	      <a href="https://dl.acm.org/citation.cfm?id=3184558.3191574" target="_blank">Real-time detection of content polluters in partially observable Twitter networks</a>.
+	      <br>
+	      <i>Proceedings of the 26th International Conference on the World Wide Web (WWW '18) Companion</i>,
+	      1331-1339, 2018.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1804.01235" target="_blank">arXiv version</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      M. Tiggemann, O. Churches, L. Mitchell, and Z. Brown.
+	      <br>
+	      <a href="http://linkinghub.elsevier.com/retrieve/pii/S1740144517305375" target="_blank">Tweeting weight loss: A comparison of #thinspiration and #fitspiration communities on Twitter</a>.
+	      <br>
+	      <i>Body Image</i>,
+	      25: 133-138,
+	      2018.
+	      <br>
+	      [<a href="files/Tiggemann_BodyImage_2018.pdf" target="_blank">pdf</a>]
+	  </p></li>
+
+
+
+	  <li><p>
+	      M. Venohr, S. L. Langhans, O. Peters, F. Holker, R. Arlinghaus, L. Mitchell, and C. Wolter.
+	      <br>
+	      <a href="http://www.nrcresearchpress.com/doi/abs/10.1139/er-2017-0024" target="_blank">The underestimated dynamics and impacts of water-based recreational activities on freshwater ecosystems</a>.
+	      <br>
+	      <i>Environmental Reviews</i>,
+	      26(2): 199-213,
+	      2018.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1139/er-2017-0024" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	  </p></li>
+
+
+	  <li><p>
+              A. Hany Hossny and L. Mitchell.
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8637560" target="_blank">Event detection in Twitter: A keyword volume approach</a>.
+              <br>
+              <i>2018 IEEE International Conference on Data Mining Workshops (ICDMW)</i>,
+              Singapore, 1200-1208, 2018.
+              <br>
+	      [<a href="https://arxiv.org/abs/1901.00570" target="_blank">arXiv version</a>]
+
+          </p></li>
+
+
+<!--2017-->
+	  <li><p>
+	      J. P. Bagrow, C. M. Danforth, and L. Mitchell.
+	      <br>
+	      <a href="https://arxiv.org/abs/1703.06361" target="_blank">Which friends are more popular than you? Contact strength and the friendship paradox in social networks</a>.
+	      <br>
+	      <i>Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '17)</i>,
+	      2017.
+	  </p></li>
+
+	  <li><p>
+	      P. Mathews, L. Mitchell, G. Nguyen and N. G. Bean.  
+	      <br>
+	      <a href="http://arxiv.org/abs/1703.05545" target="_blank">The nature and origin of heavy tails in retweet activity</a>. 
+	      <br>
+	      <i>Proceedings of the 26th International Conference on the World Wide Web (WWW '17) Companion</i>,
+	      pp. 1493-1498, 2017.
+	   </p></li>
+
+	  <li><p>
+	      P. S. Dodds, D. R. Dewhurst, F. F. Hazlehurst, C. M. Van Oort, L. Mitchell, A. J. Reagan, J. R. Williams, and C. M. Danforth.
+	      <br>
+	      <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.052301" target="_blank">Simon's fundamental rich-gets-richer model entails a dominant first-mover advantage</a>. 
+	      <br>
+	      <i>Physical Review E</i>,
+	      95: 052301,
+	      2017.
+	      <br>
+	      [<a href="https://arxiv.org/abs/1608.06313" target="_blank">arxiv version</a>]
+	  </p></li>
+
+	  <li><p>
+	      S. E. Alajajian, J. R. Williams, A. J. Reagan, S. C. Alajajian, M. R. Frank, L. Mitchell, J. Lahne, C. M. Danforth, and P. S. Dodds.
+	      <br>
+	      <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0168893" target="_blank">
+		The Lexicocalorimeter: Gauging public health through caloric input and output on social media</a>.
+	      <br>
+	      <i>PLoS ONE</i>,
+	      12(2): e0168893, 
+	      2017.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1371/journal.pone.0168893" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	      <br>
+	      [<a href="http://compstorylab.org/share/papers/alajajian2015a/" target="_blank">Online appendices</a>]
+	  </p></li>
+
+<!--2016-->
+	  <li><p>
+	      L. Mitchell and J. V. Ross.
+	      <br>
+	      <a href="http://rsos.royalsocietypublishing.org/content/3/10/160481" target="_blank">
+		A data-driven model for influenza transmission incorporating media effects</a>.
+	      <br>
+	      <i>Royal Society Open Science</i>,
+	      3: 160481, 2016.
+	  </p></li>
+
+	  <li><p>
+	      A. Reagan, L. Mitchell, D. Kiley, C. M. Danforth, and P. S. Dodds.
+	      <br>
+	      <a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0093-1" target="_blank">
+		The emotional arcs of stories are dominated by six basic shapes</a>.
+	      <br>
+	      <i>EP J Data Science</i>,
+	      5(1): 31, 2016.
+	      <span data-badge-popover="right" data-badge-type="4" data-doi="10.1140/epjds/s13688-016-0093-1" data-condensed="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	  </p></li>
+
+
+	  <li><p>
+	      P. S. Dodds, L. Mitchell, A. Reagan, and C. M. Danforth.
+	      <br>
+	      <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154184" target="_blank">
+		Tracking Climate Change through the Spatiotemporal Dynamics of the Teletherms, the Statistically Hottest and Coldest Days of the Year</a>.
+	      <br>
+	      <i>PLoS ONE</i>,
+	      11(5): e0154184, 2016.
+	      <br>
+	      [<a href="http://compstorylab.org/share/papers/dodds2015c/" target="_blank">Online appendices</a>]
+	      [<a href="https://twitter.com/teletherm" target="_blank">Twitter account</a>]
+	  </p></li>
+
+
+	  <li><p>
+	      D. P. Kiley, A. J. Reagan, L. Mitchell, C. M. Danforth, and P. S. Dodds.
+	      <br>
+	      <a href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.93.052314" target="_blank">
+		Game story space of professional sports: Australian Rules Football</a>. 
+	      <br>
+	      <i>Physical Review E</i>, 
+	      93: 052314,
+	      2016.
+	      <br>
+	      [<a href="http://arxiv.org/abs/1507.03886" target="_blank">arXiv version</a>]
+	  </p></li>
+
+
+        <li><p>
+	  E. M. Cody, A. J. Reagan, L. Mitchell, P. S. Dodds, and C. M. Danforth.
+	  <br>
+	  <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0136092" target="_blank">
+	    Climate change sentiment on Twitter: An unsolicited public opinion poll</a>. 
+	  <br>
+	  <i>PLoS ONE</i>, 
+	  10(8): e0136092,
+	  2015.
+	  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1371/journal.pone.0136092" 
+		data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+	</p></li>
+
+
+	<li><p>
+	  P. S. Dodds, E. M. Clark, S. Desu, M. R. Frank, A. J. Reagan, J. R. Williams, 
+	  L. Mitchell, K. D. Harris, I. M. Kloumann, J. P. Bagrow, K. Megerdoomian, 
+	  M. T. McMahon, B. F. Tivnan, and C. M. Danforth.
+	  <br>
+	  <a href="http://www.pnas.org/content/112/8/2389" target="_blank">Human language reveals a universal positivity bias</a>. 
+	  <br>
+	  <i>PNAS</i>,
+	  111(8): 2389-2394,
+	  2015.
+	  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1073/pnas.1411678112" 
+		data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+<!--
+	  <div data-badge-popover="right" data-badge-type="4" data-doi="10.1073/pnas.1411678112" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+-->
+	  <br>
+	  [<a href="http://www.uvm.edu/storylab/share/papers/dodds2014a/" target="_blank">Online appendices</a>] 
+	  [<a href="http://arxiv.org/abs/1505.06750" target="_blank">Reply to Garcia et al.: Common mistakes in measuring frequency dependent word characteristics</a>]
+	</p></li>
+
+
+	  <li><p>
+	  L. Mitchell and A. Carrassi.
+	  <br>
+	  <a href="files/Mitchell_QJRMS_2014.pdf" target="_blank">Accounting for model error due to unresolved scales within ensemble Kalman filtering</a>.
+	  <br>
+	  <i>Quarterly Journal of the Royal Meteorological Society</i>, 
+	  141(689): 1417-1428,
+	  2014.
+	  <br>
+          [<a href="http://arxiv.org/abs/1409.0589" target="_blank" target="_blank">arXiv version</a>]
+	</p></li>
+
+
+
+        <li><p>
+	  T. Bellsky, J. Berwald and L. Mitchell. 
+	  <br>
+	  <a href="http://arxiv.org/abs/1306.3488">Non-global parameter estimation using local ensemble Kalman filtering</a>. 
+	  <br>
+	  <i>Monthly Weather Review</i>, 142 (6), pp. 2150–2164, 2014.
+        </p></li>
+
+
+	<li><p>
+	  M. R. Frank, L. Mitchell, P. S. Dodds and C. M. Danforth.
+	  <br>
+	  <a href="http://arxiv.org/abs/1312.5965" target="_blank">Standing swells surveyed showing surprisingly stable solutions for the Lorenz 96 Model.</a>
+	  <br>
+	  <i>International Journal of Bifurcations and Chaos</i>, 
+	  24(10): 1430027,
+	  2014.
+	</p></li>
+
+	
+	<li><p>
+        L. Mitchell, M. R. Frank, K. D. Harris, P. S. Dodds and C. M. Danforth.
+	<br>
+	<a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0064417" target="_blank">
+	  The Geography of Happiness: Connecting Twitter sentiment and expression, demographics, and objective characteristics of place</a>.
+	<br>
+	<i>PLoS ONE</i>, 8(5): e64417, 2013.
+	  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1371/journal.pone.0064417" 
+		data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+<!--
+	<div data-badge-popover="right" data-badge-type="4" data-doi="10.1371/journal.pone.0064417" data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
+-->
+        <br>
+        [<a href="http://arxiv.org/abs/1302.3299" target="_blank" target="_blank">arXiv version</a>] 
+	[<a href="http://www.uvm.edu/storylab/share/papers/mitchell2013a/" target="_blank">Online appendices</a>] 
+<!--	[<a href="https://twitter.com/geographyofhapp" target="_blank">Twitter account</a>]
+	[<a href="http://www.hedonometer.org/maps.html" target="_blank">Daily updating map</a>]
+-->
+        </p></li>
+                    
+        <li><p>
+        M. R. Frank, L. Mitchell, P. S. Dodds and C. M. Danforth.
+	<br>
+	<a href="http://www.nature.com/srep/2013/130911/srep02625/full/srep02625.html" target="_blank">
+	  Happiness and the patterns of life: A study of geolocated tweets</a>.
+	<br>
+	<i>Scientific Reports</i>, 3: 2625, 2013.
+	  <span data-badge-popover="right" data-badge-type="4" data-doi="10.1038/srep02625" 
+		data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="10" class="altmetric-embed"></span>
+        </p></li>
+        
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/Mitchell_QJRMS_2013.pdf" href="files/Mitchell_QJRMS_2013.pdf" target="_blank">
+	  Controlling model error of underdamped forecast models in sparse observational networks using a variance limiting Kalman filter</a>.
+	<br>
+	<i>Quarterly Journal of the Royal Meteorological Society</i>, 139 (670), pp. 212-225, 2013.
+        </p></li>
+
+
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/FSLE_Chaos.pdf" href="files/FSLE_Chaos.pdf" target="_blank">On finite-size Lyapunov exponents in multiscale systems</a>.
+	<br>
+	<i>Chaos</i>, 22 (2), 023115, 2012.
+        </p></li>
+        
+        
+        <li><p>
+        L. Mitchell and G. A. Gottwald.
+	<br>
+	<a title="files/Mitchell_JAS_2012.pdf" href="files/Mitchell_JAS_2012.pdf" target="_blank">
+	  Data assimilation in slow-fast systems using homogenized climate models</a>.
+	<br>
+	<i>Journal of the Atmospheric Sciences</i>, 69 (4), pp. 1359-1377, 2012.
+        </p></li>
+        
+        <li><p>
+        G. A. Gottwald, L. Mitchell and S. Reich.
+	<br>
+	<a title="files/Gottwald_MWR_2011.pdf" href="files/Gottwald_MWR_2011.pdf" target="_blank">
+	  Controlling error overestimation of error covariance in ensemble Kalman filters with sparse observations: A variance-limiting Kalman filter</a>.
+	<br>
+	<i>Monthly Weather Review</i>, 139 (8), pp. 2650-2667, 2011.
+	<br>
+	[<a href="http://arxiv.org/abs/1108.5801" target="_blank" target="_blank">arXiv version</a>]
+        </p></li>
+        
+        
+        <li><p>
+        S.-P. Zhu and L. Mitchell.
+	<br>
+	<a title="files/ZhuMitchell_JAMC_2011.pdf" href="files/ZhuMitchell_JAMC_2011.pdf" target="_blank">
+	  Combined diffraction and radiation of ocean waves around an OWC device</a>.
+	<br>
+	<i>Journal of Applied Mathematics and Computing</i>, 36 (1-2), pp. 401-416, 2010.
+	</p></li>
+        
+        
+        <li><p>
+        S.-P. Zhu and L. Mitchell.
+	<br>
+	<a title="files/Zhu_WaveMotion_2009.pdf" href="files/Zhu_WaveMotion_2009.pdf" target="_blank">Diffraction of ocean waves around a hollow cylindrical shell structure</a>.
+	<br>
+	<i>Wave Motion</i>, 46 (1), pp. 78-88, 2009.
+        </p></li>
+        
+
+        </ol>
+
+
+        <br>
+
+
+  <h4 id="in_review">Preprints</h4>
+
+<p>
+
+
+  <li><p>
+      R. C. Cope, J. V. Ross, M. Chilver, N. P. Stocks, and L. Mitchell.
+      <br>
+      <a href="https://www.biorxiv.org/content/early/2018/09/28/427708" target="_blank">Connecting surveillance and population-level influenza incidence</a>
+      (submitted),
+      2018.
+  </p></li> 
+
+  <li><p>
+      M. Edwards, L. Mitchell, J. Tuke, and M. Roughan
+      <br>
+      <a href="https://arxiv.org/abs/1811.01467" target="_blank">The one comparing narrative social network extraction techniques</a>
+      (submitted),
+      2018.
+  </p></li>
+
+
+  <li><p>
+      M. R. Frank, J. R. Williams, L. Mitchell, J. P. Bagrow, P. S. Dodds, and C. M. Danforth.
+      <br>
+      <a href="http://arxiv.org/abs/1410.1393" target="_blank">Constructing a taxonomy of fine-grained human movement and activity motifs through social media</a>, 
+      2014.
+  </p></li>
+  
+  
+  <li><p>
+      J. P. Bagrow, S. Desu, M. R. Frank, N. Manukyan, 
+      L. Mitchell, A. Reagan, E. E. Bloedorn, L. B. Booker, 
+      L. K. Branting, M. J. Smith, B. F. Tivnan, C. M. Danforth, 
+      P. S. Dodds, and J. C. Bongard.
+      <br>
+      <a href="http://arxiv.org/abs/1312.6122" target="_blank"> Shadow networks: Discovering hidden nodes with models of information flow</a>, 
+      2013.
+  </p></li>
+  
+</p>
+
+<br>
+
+
+
+
+
+<h4 id="other_publications">Selected short articles, blog posts, etc</h4>
+
+<li><p>
+    L. Mitchell.
+    <a href="https://theconversation.com/explainer-how-the-internet-knows-if-youre-happy-or-sad-77401" target="_blank">Explainer: how the internet knows if you’re happy or sad</a>.
+    <a title="https://theconversation.com" href="https://theconversation.com" target="_blank">The Conversation</a>, May 2017.
+    <br>
+    [Selected for <a href="https://www.mup.com.au/books/9780522872675-the-conversation-yearbook-2017" target="_blank">The Conversation Yearbook 2017</a>]
+</p></li>
+
+
+<li><p>
+    L. Mitchell.
+    <a href="https://theconversation.com/how-twitter-gives-scientists-a-window-into-human-happiness-and-health-62255" target="_blank">How Twitter gives scientists a window into human happiness and health</a>.
+    <a title="https://theconversation.com" href="https://theconversation.com" target="_blank">The Conversation</a>, July 2016.
+</p></li>
+
+<li><p>
+    J. McVernon, J. V. Ross, K. Glass, L. Mitchell, N. Geard, R. Moss.
+    <a href="https://theconversation.com/computing-helps-the-study-of-infections-on-a-global-and-local-scale-58152" target="_blank">Computing helps the study of infections on a global and local scale</a>. 
+    <a title="https://theconversation.com/au" href="https://theconversation.com/au" target="_blank">The Conversation</a>, June 2016.
+</p></li>
+
+<li><p>
+    <a href="http://www.uvm.edu/storylab/2013/02/18/where-is-the-happiest-city-in-the-usa/" target="_blank">Where is the happiest city in the USA?</a> Blog post, <a title="http://www.compstorylab.org" href="http://www.compstorylab.org" target="_blank">compstorylab.org</a>, February 2013.
+</p></li>
+
+<li><p>
+    L. Mitchell. <a title="http://www.austms.org.au/Publ/Gazette/2010/Sep10/TechPaperMitchell.pdf" href="http://www.austms.org.au/Publ/Gazette/2010/Sep10/TechPaperMitchell.pdf" target="_blank">Using statistical data to improve weather forecasting</a>. <i>Gazette of the Australian Mathematical Society</i>, 37 (4), pp. 242-243, 2010.
+</p></li>
+
+
+<li><p>
+    L. Mitchell and S.-P. Zhu. <a title="files/OMAE2008-57171.pdf" href="files/OMAE2008-57171.pdf" target="_blank">Linear diffraction and radiation of surface waves by a hollow suspended cylindrical shell</a>. Proceedings of the ASME 27th International Conference on Offshore Mechanics and Arctic Engineering (OMAE 2008), June 2008.
+</p></li>
+
+
+<br>
+
+
+
+<h2 style="padding-top: 50px; margin-top: -50px;" id="grants" >Grants</h2>
+<p>
+
+<li> 
+<a href="https://invasives.com.au" target="_blank">Centre for Invasive Species Solutions</a>:
+<i>Understanding and intervening in illegal trade in non-native species</i>
+(with Prof. Joshua Ross and A/Prof. Phill Cassey) 
+($665,000 over 3 years)
+</li>
+
+
+<li> 
+<a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions CRC</a> 
+Beat The News Project: 
+<i>Predicting common and novel disease outbreaks by assimilating open data into epidemiological models</i>
+(with A/Prof. Joshua Ross and Prof. Nigel Bean) 
+($637,606 over 3 years)
+</li>
+
+<li>
+<a href="http://www.d2dcrc.com.au" target="_blank">Data to Decisions CRC</a>
+Beat The News Project:
+<i>Predicting civil unrest and election outcomes using Bayesian network models</i>
+(with Dr. Jonathan Tuke and Prof. Nigel Bean)
+($661,261 over 3 years)
+</li>
+</p>
+
+<br>
+
+<h2 style="padding-top: 50px; margin-top: -50px;" id="more" >Talks, media and more</h2>
+
+
+<h4 id="talks">Selected talks</h3>
+
+<p>
+
+
+  <li>
+    Big Happy: Revealing the character of cities through data (TEDx talk). 
+    <br>
+    <a href="http://www.uvm.edu/~tedxuvm" target="_blank">TEDxUVM</a>, Burlington VT, October 2012.
+    <br>
+    <iframe width="420" height="315" src="//www.youtube.com/embed/rZd52_Nq3n0" frameborder="0" allowfullscreen></iframe>
+  </li>
+
+
+</p>
+
+
+
+
+<h4 id="media">Selected media</h3>
+
+<p>
+
+  <li>
+    <a href="https://soundcloud.com/schoolofbatman/the-case-of-the-fear-chase-lewis-mitchell" target="_blank">The case of the fear chase</a>.
+    <br>
+    The School of Batman podcast, April 2018.
+  </li>
+
+
+  <li>
+    <a href="http://www.abc.net.au/radionational/programs/drive/how-social-media-companies-are-figuring-out-how-you-feel/8555824" target="_blank">How social media companies are figuring out how you feel</a>.
+    <br>
+    ABC Radio, RN Drive. May 24, 2017.
+  </li>
+
+  
+  <li>
+    <a href="http://www.abc.net.au/radionational/programs/booksandarts/story-arcs-in-fiction-according-to-artificial-intelligence/8546220" target="_blank">Story arcs in fiction according to artificial intelligence</a>.
+    <br>
+    ABC Radio, Books and Arts program. May 22, 2017.
+  </li>
+  
+  <li>
+    <a href="https://www.scientificamerican.com/article/great-literature-is-surprisingly-arithmetic/" target="_blank">
+      Great Literature Is Surprisingly Arithmetic</a>.
+    <br>
+    Scientific American. February 2017.
+  </li>
+  
+  
+  <li>
+    <a href="http://www.washingtonpost.com/news/speaking-of-science/wp/2015/07/29/twitter-can-tell-which-states-love-jogging-and-which-are-eating-hot-dogs/" target="_blank">
+      Twitter can tell which states love jogging and which are eating hot dogs</a>.
+    <br>
+    Washington Post. July 29, 2015.
+  </li>
+
+
+  <li>
+    <a href="https://cosmosmagazine.com/life-sciences/does-language-work-make-world-happier-place" target="_blank">
+      Does langauge work to make the world a happier place?
+    </a>
+    <br>
+    Cosmos Magazine. February 16, 2015.
+  </li>
+
+  <li>
+    <a href="http://www.abc.net.au/science/articles/2015/02/10/4176587.htm" target="_blank">Language proves we're all optimists at heart</a>.
+    <br>
+    ABC News in Science. February 10, 2015.
+  </li>
+
+  <li>
+    <a href="http://www.huffingtonpost.com/2013/08/02/happiest-states-_n_3696160.html" target="_blank">The Happiest States In America In One Map (INFOGRAPHIC)</a>.
+    <br>
+    Huffington Post. August 2, 2013.
+  </li>
+
+
+  <li>
+    <a href="http://www.bbc.com/future/story/20130411-want-to-be-happy-travel-further" target="_blank">Twitter study: Happiness rises the further you travel</a>.
+    <br>
+    BBC Future. April 11, 2013.
+  </li>
+
+  <li>
+    <a href="http://newsfeed.time.com/2013/02/25/new-study-uses-tweets-to-rank-americas-happiest-cities-states/" target="_blank">New Study Uses Tweets To Rank America’s Happiest Cities, States</a>.
+    <br>
+    Time Magazine Online. February 25, 2013.
+  </li>
+
+  
+  <li>
+    <a href="http://www.theatlantic.com/technology/archive/2013/02/the-geography-of-happiness-according-to-10-million-tweets/273286/" target="_blank">The geography of happiness according to 10 million tweets</a>.
+    <br>
+    The Atlantic. February 19, 2013.
+  </li>
+
+
+
+  
+</p>
+
+
+
+<h4 id="other">Other:</h3>
+
+<p>
+  <li>I won a
+    <a href="http://www.aips.net.au/tall-poppies/sa-tall-poppies/past-sa-tall-poppy-winners/2018-south-australian-award-winners/" target="_blank">Tall Poppy Award</a> 
+    and they made a cool short video about me,
+    <a href="https://www.youtube.com/watch?v=_kDZkc1--GU" target="_blank">check it out</a>!
+  </li>
+  
+  <li><a href="http://www.hedonometer.org">hedonometer.org</a>,
+    a project from the University of Vermont's Computational Story Lab tracking daily happiness online. 
+    <br>
+    The <a href="http://www.hedonometer.org/maps.html" target="_blank">Map</a> section is
+    inspired by my Geography of Happiness paper.
+    Tweet any interesting trends you discover! 
+  </li>
+    
+  <li><a href="http://www.compstorylab.org">compstorylab.org</a>,
+    the Computational Story Lab's blog (I have some blog posts here).
+  </li>
+    
+  <li>The 
+    <a href="http://www.uvm.edu/storylab/share/papers/dodds2014a/" target="_blank">online appendices</a> 
+    for our paper on the <a href="http://arxiv.org/abs/1406.3855" target="_blank">universal positivity bias across languages</a> 
+    allows you to explore the "shape of stories" 
+    (a la <a href="https://www.youtube.com/watch?v=oP3c1h8v2ZQ" target="_blank">Kurt Vonegut</a>) 
+    for a number of classic novels. 
+    You also explore the emotional trajectories of over 1000 different
+    <a href="http://hedonometer.org/movies/list.html" target="_blank">movies</a>.
+  </li>
+<!--  <li>You should watch the excellent 
+    <a href="http://www.bagrow.com" target="_blank">Jim Bagrow</a> 
+    talking about our work on how predictable the things people say are at UVM's 2014 
+    <a href="http://www.uvm.edu/~cmplxsys/events/prediction-the-next-big-thing/" target="_blank">MacMillan symposium</a>:
+    <br>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/ZALXGZl6G4s" frameborder="0" allowfullscreen></iframe>				
+-->
+</p>
+
+
+        </div><!--/right-->
+
+
+
+<div class="col-md-3"><div data-spy="affix" class="bs-sidebar">
+<ul class="nav bs-sidenav">
+<a class="twitter-timeline" href="https://twitter.com/lewis_math" data-widget-id="419196519401541632">Tweets by @lewis_math</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</ul>
+</div></div>
+
+      </div><!--/row-->
+       
+</div><!--/container-->
+
+
+<br><br>
+
+    <div class="footer">
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53015972-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
