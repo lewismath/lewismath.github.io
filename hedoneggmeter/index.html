@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hedoneggmeter: the mood of Bluesky, as light</title>
+<meta name="description" content="A live glow of the mood of English Bluesky posts, scored with the LabMT word list. Only averages are shown.">
+<meta name="theme-color" content="#08080c">
+<meta name="hem-version" content="202609211148">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css?v=202609211148">
+</head>
+<body data-state="listening" data-view="instrument">
+<h1 class="sr-only">hedoneggmeter: the mood of Bluesky, as light</h1>
+<div class="viewbar" role="group" aria-label="Choose a view">
+  <button type="button" id="view-lamp" aria-pressed="false">Lamp</button>
+  <button type="button" id="view-instrument" aria-pressed="true">Instrument</button>
+</div>
+<main class="stage">
+  <div class="globe-wrap"><div class="globe" id="globe" role="img" aria-label="A glowing globe whose colour follows the mood of Bluesky"></div></div>
+  <section class="panel">
+    <p class="kicker">Bluesky mood, right now</p>
+    <p class="word serif" id="mood-word">Listening</p>
+    <p class="sentence" id="mood-sentence">Listening to Bluesky...</p>
+    <svg class="spark" viewBox="0 0 400 90" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <defs><linearGradient id="tide-y" x1="0" y1="86" x2="0" y2="4" gradientUnits="userSpaceOnUse"></linearGradient></defs>
+      <path id="spark-typical" d="" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      <path id="spark-live" d="" fill="none" stroke="url(#tide-y)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      <circle id="spark-dot" r="3.6" cx="400" cy="45" fill="#ffffff" visibility="hidden"/>
+    </svg>
+    <div class="axis"><span>an hour ago</span><span>now</span></div>
+    <dl class="stats mono">
+      <div><dt>Average score</dt><dd id="score">--</dd></div>
+      <div><dt>English posts per minute</dt><dd id="rate">--</dd></div>
+    </dl>
+    <p class="status" id="status"></p>
+  </section>
+</main>
+<p class="sr-only" id="live-region" aria-live="polite"></p>
+<footer class="credit">
+  <p>Word scores from the <a href="https://hedonometer.org" rel="noopener">hedonometer.org</a> LabMT word list (Dodds et al., CC BY), filtered to word scores &plusmn;1 from neutral.</p>
+  <p>Only averages are shown; no posts or words are displayed. Connects directly from your browser to Bluesky's public stream. No cookies, no analytics. <a href="https://lewismath.github.io/">lewismath.github.io</a></p>
+</footer>
+<noscript><p class="noscript">This page needs JavaScript to listen to Bluesky and colour the globe.</p></noscript>
+<script defer src="js/tokenize.js?v=202609211148"></script>
+<script defer src="js/labmt.js?v=202609211148"></script>
+<script defer src="js/window.js?v=202609211148"></script>
+<script defer src="js/smoothing.js?v=202609211148"></script>
+<script defer src="js/palette.js?v=202609211148"></script>
+<script defer src="js/mood.js?v=202609211148"></script>
+<script defer src="js/day.js?v=202609211148"></script>
+<script defer src="js/jetstream.js?v=202609211148"></script>
+<script defer src="js/stream.js?v=202609211148"></script>
+<script defer src="js/model.js?v=202609211148"></script>
+<script defer src="js/app.js?v=202609211148"></script>
+</body>
+</html>
